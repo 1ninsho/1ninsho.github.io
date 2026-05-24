@@ -1,0 +1,178 @@
+<!DOCTYPE html>
+<html lang="ja">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>技</title>
+    <style>
+        /* ページ全体の見栄えを整える設定 */
+        body {
+            font-family: "Helvetica Neue", Arial, "Hiragino Kaku Gothic ProN", "Hiragino Sans", Meiryo, sans-serif;
+            line-height: 1.8;
+            margin: 0 auto;
+            max-width: 800px;
+            padding: 20px;
+            color: #333;
+            background-color: #fcfcfc;
+        }
+        /* 言語切り替え表記用 */
+        .lang-switch {
+            text-align: right;
+            font-size: 0.9em;
+            color: #666;
+            margin-bottom: 20px;
+        }
+        /* 各見出しのデザイン */
+        h1 {
+            font-size: 2.2em;
+            border-bottom: 3px solid #333;
+            padding-bottom: 10px;
+            margin-top: 20px;
+        }
+        h2 {
+            font-size: 1.8em;
+            border-bottom: 1px solid #ccc;
+            margin-top: 50px;
+            padding-bottom: 5px;
+        }
+        h3 {
+            font-size: 1.4em;
+            border-left: 5px solid #555;
+            padding-left: 10px;
+            margin-top: 40px;
+        }
+        h4 {
+            font-size: 1.1em;
+            color: #444;
+            margin-top: 30px;
+        }
+        /* 文章の改行をそのまま表示するための設定 */
+        p {
+            white-space: pre-wrap;
+            margin-bottom: 2em;
+        }
+        /* YouTube動画用のダミー枠 */
+        .video-placeholder {
+            background-color: #eee;
+            border: 2px dashed #aaa;
+            padding: 20px;
+            text-align: center;
+            margin: 15px 0;
+            color: #666;
+            font-weight: bold;
+            border-radius: 5px;
+        }
+        /* フッター（戻るリンク・前後ナビゲーション）の装飾 */
+        footer {
+            margin-top: 60px;
+            border-top: 1px solid #ccc;
+            padding-top: 20px;
+        }
+        /* 前後のリンクを左右に配置するための設定（テーブルレイアウトによる互換性確保） */
+        .page-navigation {
+            display: table;
+            width: 100%;
+            margin-bottom: 20px;
+        }
+        .nav-prev {
+            display: table-cell;
+            text-align: left;
+            width: 50%;
+        }
+        .nav-next {
+            display: table-cell;
+            text-align: right;
+            width: 50%;
+        }
+        .nav-home {
+            text-align: center;
+            margin-top: 15px;
+        }
+        footer a {
+            color: #0066cc;
+            text-decoration: none;
+            font-weight: bold;
+        }
+        footer a:hover {
+            text-decoration: underline;
+        }
+    </style>
+</head>
+<body>
+
+    <div class="lang-switch">日本語/ENG(WIP)</div>
+
+    <h1>技</h1>
+
+    <h2>通常</h2>
+  
+    <h3>マチェットウィング</h3>
+    <p>ダメージ:400*9(K短押し)
+280*15(K長押し)
+ファルコンウィズイン中にKで自分の周囲を回る羽を展開する。
+主力技。ボスをノックバックさせないことと回避を無視できないこと以外の欠点がない。
+この技を出すための魔力の捻出、および当て方の最適化が重要。
+短押しで出るものを短羽、長押しのものを長羽、両者をまとめてA羽と呼称する。</p>
+    <h4>仕様</h4>
+    <p>羽が1枚でも残っていると再展開できない。特に手動で発射した際は、壁や床あるいは敵にぶつかるか一定時間経過して自然消滅するまでは新しい羽を出せない。
+裏を返せば、全ての羽を素早く当て切ればその分次の羽を早く展開でき、ダメージ効率を高められる。C13のフォルティトゥードが特にわかりやすい。</p>
+  
+    <h3>ひっかき</h3>
+    <p>ダメージ:800
+タイガーかコブラを攻撃で中断した際にでる攻撃判定をこう呼ぶ。
+P長押しと合わせてA羽を出すための魔力稼ぎとしてチャプターの最初に頻繁に使う。</p>
+  
+    <h3>PKP</h3>
+    <p>ダメージ:(300+500)+(400+500*3)+(800+500*2)
+2段目までの瞬間火力の高さと、安定してすばやくウィケッドを出せる点が長所。
+このコンボに限ったことではないが、ローサの長押し射撃は距離による威力減衰が激しく、額面通りのダメージを出しにくい点に注意。</p>
+    
+    <h3>PP・K</h3>
+    <p>ダメージ:(300+500)+(300+500*2)+(1000+500*3)
+ディレイ入力が必要な割に総威力はPKPとほとんど変わらないが、ダメージ1000のウィケッドを最速で出せるコンボとして使う場面がある。</p>
+    
+    <h3>PPPP</h3>
+    <p>ダメージ:(300+500)+(300+500)+(300+500*2)+(300+500)
+まずまずの威力に加え、ウィケッドを出さない分HSが少なく済む、Kを挟まないおかげでA羽を残しながら攻撃できるといった利点がある。</p>
+    
+    <h3>空中PPPKKK</h3>
+    <p>ダメージ:(300+500)+(300+500)+(300+500*2)+(400+500*2)+(400+500*3)+(1000+500*3)
+モーションが短めかつ総威力に優れるコンボだが、空中コンボが出せる場面ではA羽を使った方がよく、そのためプロローグでしか出番がない。</p>
+    
+    <h2>UC</h2>
+
+    <h3>PPP</h3>
+    <p>ダメージ:(800+100*20)*2+(1200+100*40)
+対人型ボス戦での主力技。特筆がない限り最終段のみを長押しする。
+アーマーの長押し射撃は距離による威力低下がない。
+最終段に派生した直後にUCを解除すると、スーパーアーマーと回避無視の特性が失われる代わりに魔力消費を無効化、逆に回復できる。このサイトではリバースUCと呼称する。</p>
+    
+    <h3>スティレット</h3>
+    <p>PPP最終段の瞬間火力だけをつまみ食いできるおいしい技。ダメージが足りる場面ではこちらを選ぶ。
+コマンド技はアーマーであっても対応する技を購入していないと使えないが、スティレット(とヒールスライド)はスティック2回はじき入力でのみ購入前でも出せる。
+この技でもリバースUCが使える。</p>
+    
+    <h3>ヒールストンプ</h3>
+    <p>ダメージ:1000
+攻撃判定が非常に広い。対雑魚戦で使う。</p>
+    
+    <h3>空中P</h3>
+    <p>ダメージ:800
+ヒールストンプと比べると攻撃範囲も威力も劣るが、K技でないためA羽を残して出せる点が長所。
+その他空中からとっさに出す技として。打ち上げられた敵や背の高い相手には2ヒットする。</p>
+    
+    <h3>S(空中戦)</h3>
+    <p>ダメージ:100
+通常時のSは全く使い物にならないが、特殊戦闘では長押し射撃と同等の性能に強化される。高威力かつHSがかからないのは優秀だが、リバースUCを適用できない。</p>
+    
+    <h3>K</h3>
+    <p>ダメージ:1000+1000
+RoTのビラブドやプロローグのアクセプタンスを1入力で吹っ飛ばせる。
+ダメージ調整として使う場面が1か所だけある。</p>
+
+    <footer>
+            <a href="index.html">トップページ</a>
+    </footer>
+
+</body>
+</html>
