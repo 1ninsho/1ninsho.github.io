@@ -62,6 +62,16 @@
             font-weight: bold;
             border-radius: 5px;
         }
+        /* YouTube動画をスマホ対応（レスポンシブ）にする設定 */
+        iframe {
+            width: 100%;
+            max-width: 560px;
+            aspect-ratio: 16 / 9;
+            height: auto;
+            display: block;       /* 前後に余計な隙間を作らないための設定 */
+            margin: 15px 0;       /* 上下に少し隙間を空ける */
+            border: none;         /* 動画の周りの黒い線を消す */
+        }
         /* フッター（戻るリンク・前後ナビゲーション）の装飾 */
         footer {
             margin-top: 60px;
@@ -110,7 +120,11 @@
 
     <h4>（小見出し）</h4>
     
-    <div class="video-placeholder">ここにリンクを挿入</div>
+<iframe src="https://www.youtube.com/embed/動画ID?start=開始秒&end=終了秒" 
+  title="YouTube video player" frameborder="0" 
+  allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" 
+  allowfullscreen>
+</iframe>
     
     <p>ここに本文のテキストを入力します。
 改行した文章はそのままWebページ上でも改行されて表示されます。</p>
