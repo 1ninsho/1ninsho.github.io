@@ -1,0 +1,149 @@
+<!DOCTYPE html>
+<html lang="ja">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>プロローグ(Easy)</title>
+    <style>
+        /* ページ全体の見栄えを整える設定 */
+        body {
+            font-family: "Helvetica Neue", Arial, "Hiragino Kaku Gothic ProN", "Hiragino Sans", Meiryo, sans-serif;
+            line-height: 1.8;
+            margin: 0 auto;
+            max-width: 800px;
+            padding: 20px;
+            color: #333;
+            background-color: #fcfcfc;
+        }
+        /* 言語切り替え表記用 */
+        .lang-switch {
+            text-align: right;
+            font-size: 0.9em;
+            color: #666;
+            margin-bottom: 20px;
+        }
+        /* 各見出しのデザイン */
+        h1 {
+            font-size: 2.2em;
+            border-bottom: 3px solid #333;
+            padding-bottom: 10px;
+            margin-top: 20px;
+        }
+        h2 {
+            font-size: 1.8em;
+            border-bottom: 1px solid #ccc;
+            margin-top: 50px;
+            padding-bottom: 5px;
+        }
+        h3 {
+            font-size: 1.4em;
+            border-left: 5px solid #555;
+            padding-left: 10px;
+            margin-top: 40px;
+        }
+        h4 {
+            font-size: 1.1em;
+            color: #444;
+            margin-top: 30px;
+        }
+        /* 文章の改行をそのまま表示するための設定 */
+        p {
+            white-space: pre-wrap;
+            margin-bottom: 2em;
+        }
+        /* YouTube動画用のダミー枠 */
+        .video-placeholder {
+            background-color: #eee;
+            border: 2px dashed #aaa;
+            padding: 20px;
+            text-align: center;
+            margin: 15px 0;
+            color: #666;
+            font-weight: bold;
+            border-radius: 5px;
+        }
+        /* YouTube動画をスマホ対応（レスポンシブ）にする設定 */
+        iframe {
+            width: 100%;
+            max-width: 560px;
+            aspect-ratio: 16 / 9;
+            height: auto;
+            display: block;       /* 前後に余計な隙間を作らないための設定 */
+            margin: 15px 0;       /* 上下に少し隙間を空ける */
+            border: none;         /* 動画の周りの黒い線を消す */
+        }
+        /* フッター（戻るリンク・前後ナビゲーション）の装飾 */
+        footer {
+            margin-top: 60px;
+            border-top: 1px solid #ccc;
+            padding-top: 20px;
+        }
+        /* 前後のリンクを左右に配置するための設定（テーブルレイアウトによる互換性確保） */
+        .page-navigation {
+            display: table;
+            width: 100%;
+            margin-bottom: 20px;
+        }
+        .nav-prev {
+            display: table-cell;
+            text-align: left;
+            width: 50%;
+        }
+        .nav-next {
+            display: table-cell;
+            text-align: right;
+            width: 50%;
+        }
+        .nav-home {
+            text-align: center;
+            margin-top: 15px;
+        }
+        footer a {
+            color: #0066cc;
+            text-decoration: none;
+            font-weight: bold;
+        }
+        footer a:hover {
+            text-decoration: underline;
+        }
+    </style>
+</head>
+<body>
+
+    <div class="lang-switch">日本語/ENG(WIP)</div>
+
+    <h1>プロローグ(Easy)</h1>
+    <span class="separator">/</span><a href="Pro_NH_jp.html">Normal,Hard</a><span class="separator">/</span><a href="Pro_I_jp.html">∞</a></li>
+
+    <h2>Verse1</h2>
+
+    <h3>フェーズ1</h3>
+    <h4>正攻法</h4>
+<iframe src="https://www.youtube.com/embed/KvxHMrCBv7g?start=228&end=239" 
+  title="YouTube video player" frameborder="0" 
+  allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" 
+  allowfullscreen>
+</iframe>
+    <p>Verse1では敵を水平方向に吹っ飛ばしたり埋めたりすると即死させられる。撃破後は挑発でコンボ維持。</p>
+
+   <h4>戦闘スキップ</h4>
+<iframe src="https://www.youtube.com/embed/KvxHMrCBv7g?start=228&end=239" 
+  title="YouTube video player" frameborder="0" 
+  allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" 
+  allowfullscreen>
+</iframe>
+    <p>開始前のムービースキップ後、ジャンプ入力するとフェーズ1をスキップできる。猶予はかなり短い。
+スキップに成功した場合は放置するとムービーが始まる。</p>
+
+
+    <footer>
+        <div class="page-navigation">
+            <div class="nav-next"><a href="Pro_E_jp.html">Next →</a></div>
+        </div>
+        <div class="nav-home">
+            <a href="index.html">トップページ</a>
+        </div>
+    </footer>
+
+</body>
+</html>
