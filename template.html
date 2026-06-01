@@ -141,3 +141,61 @@
 
 </body>
 </html>
+
+
+
+    <script>
+        // ページ読み込み時に実行
+        document.addEventListener("DOMContentLoaded", function() {
+            const iframes = document.querySelectorAll('iframe[src*="youtube.com/embed"]');
+            
+            iframes.forEach(function(iframe, index) {
+                // 1. APIで操作するためのIDを自動で付ける
+                if (!iframe.id) iframe.id = 'yt-player-' + index;
+                
+                // 2. JSから操作するための必須パラメータ(enablejsapi=1)をURLに自動追加
+                if (!iframe.src.includes('enablejsapi=1')) {
+                    iframe.src += (iframe.src.includes('?') ? '&' : '?') + 'enablejsapi=1';
+                }
+            });
+
+            // 3. YouTubeの操作プログラム（API）を読み込む
+            const tag = document.createElement('script');
+            tag.src = "https://www.youtube.com/iframe_api";
+            const firstScriptTag = document.getElementsByTagName('script')[0];
+            firstScriptTag.parentNode.insertBefore(tag, firstScriptTag);
+        });
+
+        // YouTube APIの準備が整ったら自動で呼ばれる関数
+        function onYouTubeIframeAPIReady() {
+            const iframes = document.querySelectorAll('iframe[src*="youtube.com/embed"]');
+            
+            iframes.forEach(function(iframe) {
+                // iframeのURLから「start=〇〇」の数字を抜き出す（無ければ0秒とする）
+                const startMatch = iframe.src.match(/[?&]start=(\d+)/);
+                const startSec = startMatch ? parseInt(startMatch[1], 10) : 0;
+
+                // プレイヤーをプログラムで監視する設定
+                new YT.Player(iframe.id, {
+                    events: {
+                        'onStateChange': function(event) {
+                            // 動画が指定した終了時間(end)に到達して「再生終了(ENDED)」になった瞬間
+                            if (event.data === YT.PlayerState.ENDED) {
+                                // 開始秒数に瞬時に巻き戻す
+                                event.target.seekTo(startSec, true);
+                                // 一時停止して、ユーザーがもう一度再生ボタンを押すのを待つ
+                                event.target.pauseVideo(); 
+                                
+                                // 💡 もし「自動でずっとループ再生させ続けたい」場合は、
+                                // 上の pauseVideo() を消して event.target.playVideo(); に書き換えてください。
+                            }
+                        }
+                    }
+                });
+            });
+        }
+    </script>
+    </body>
+</html>
+
+
