@@ -1,0 +1,339 @@
+<!DOCTYPE html>
+<html lang="ja">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>プロローグ(Easy)</title>
+    <style>
+        /* ページ全体の見栄えを整える設定 */
+        body {
+            font-family: "Helvetica Neue", Arial, "Hiragino Kaku Gothic ProN", "Hiragino Sans", Meiryo, sans-serif;
+            line-height: 1.8;
+            margin: 0 auto;
+            max-width: 800px;
+            padding: 20px;
+            color: #333;
+            background-color: #fcfcfc;
+        }
+        /* 言語切り替え表記用 */
+        .lang-switch {
+            text-align: right;
+            font-size: 0.9em;
+            color: #666;
+            margin-bottom: 20px;
+        }
+        /* 各見出しのデザイン */
+        h1 {
+            font-size: 2.2em;
+            border-bottom: 3px solid #333;
+            padding-bottom: 10px;
+            margin-top: 20px;
+        }
+        h2 {
+            font-size: 1.8em;
+            border-bottom: 1px solid #ccc;
+            margin-top: 50px;
+            padding-bottom: 5px;
+        }
+        h3 {
+            font-size: 1.4em;
+            border-left: 5px solid #555;
+            padding-left: 10px;
+            margin-top: 40px;
+        }
+        h4 {
+            font-size: 1.1em;
+            color: #444;
+            margin-top: 30px;
+        }
+        /* 文章の改行をそのまま表示するための設定 */
+        p {
+            white-space: pre-wrap;
+            margin-bottom: 2em;
+        }
+        /* YouTube動画用のダミー枠 */
+        .video-placeholder {
+            background-color: #eee;
+            border: 2px dashed #aaa;
+            padding: 20px;
+            text-align: center;
+            margin: 15px 0;
+            color: #666;
+            font-weight: bold;
+            border-radius: 5px;
+        }
+        /* YouTube動画をスマホ対応（レスポンシブ）にする設定 */
+        iframe {
+            width: 100%;
+            max-width: 560px;
+            aspect-ratio: 16 / 9;
+            height: auto;
+            display: block;       /* 前後に余計な隙間を作らないための設定 */
+            margin: 15px 0;       /* 上下に少し隙間を空ける */
+            border: none;         /* 動画の周りの黒い線を消す */
+        }
+        /* フッター（戻るリンク・前後ナビゲーション）の装飾 */
+        footer {
+            margin-top: 60px;
+            border-top: 1px solid #ccc;
+            padding-top: 20px;
+        }
+        /* 前後のリンクを左右に配置するための設定（テーブルレイアウトによる互換性確保） */
+        .page-navigation {
+            display: table;
+            width: 100%;
+            margin-bottom: 20px;
+        }
+        .nav-prev {
+            display: table-cell;
+            text-align: left;
+            width: 50%;
+        }
+        .nav-next {
+            display: table-cell;
+            text-align: right;
+            width: 50%;
+        }
+        .nav-home {
+            text-align: center;
+            margin-top: 15px;
+        }
+        footer a {
+            color: #0066cc;
+            text-decoration: none;
+            font-weight: bold;
+        }
+        footer a:hover {
+            text-decoration: underline;
+        }
+    </style>
+</head>
+<body>
+
+    <div class="lang-switch">日本語/ENG(WIP)</div>
+
+    <h1>チャプター1(Easy)</h1>
+    Easy<span class="separator">/</span><a href="Pro_NH_jp.html">Normal,Hard</a><span class="separator">/</span><a href="Pro_I_jp.html">∞</a></li>
+
+    <h2>移動</h2>
+<iframe src="https://www.youtube.com/embed/KvxHMrCBv7g?start=547&end=603" 
+  title="YouTube video player" frameborder="0" 
+  allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" 
+  allowfullscreen>
+</iframe>
+    <p>魔力がない時の移動はタイガー地上J連打が最速。
+手帳の記憶は拾うとロスになるので避ける。
+水中ではこの段階ではエアダッヂ連打が最も速い。ベヨネッタ(ラブイズブルー)と違い、空中P連打は速くない。</p>
+
+
+   <h2>ショップ</h2>
+    <p>以下を買う。
+・紫、紫大、赤、赤大をそれぞれ所持上限まで
+・スティレット
+・ヒールストンプ
+・ウィッチツイスト
+・ホーネットウィズイン
+・ファルコンウィズイン
+・アンブランスピア
+
+合計で181000ヘイロウ必要。ヘイロウが足りない場合、ホーネットは諦めてもなんとかなる。スティレットは入力が面倒になるが買わなくても出せる。スピアは微ロス程度で済む。
+残りの技とアイテムは買えないと苦しい。
+</p>
+
+
+  <h2>移動</h2>
+<iframe src="https://www.youtube.com/embed/KvxHMrCBv7g?start=627&end=664" 
+  title="YouTube video player" frameborder="0" 
+  allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" 
+  allowfullscreen>
+</iframe>
+    <p>扉はひっかきで開ける。</p>
+
+    
+  <h2>Verse6:アコレイド槍+アクセプタンス*3→コンパッションズ*11+アコレイド槍</h2>
+<iframe src="https://www.youtube.com/embed/KvxHMrCBv7g?start=663&end=694" 
+  title="YouTube video player" frameborder="0" 
+  allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" 
+  allowfullscreen>
+</iframe>
+    <p>タイガーウィズインで接近、ひっかきとPで魔力を溜める。
+すぐにファルコンに切り替えて短羽、アコレイドの攻撃でWTを取りながらファルコンを出し直し短羽をもう一度展開。
+ここまでで正面のアクセプタンスとアコレイドを倒せるはず。両端のアクセプタンスを残った羽とひっかきPで倒す。
+アクセプタンスのHPは2000で、ひっかき+P長では若干足りない(800+300+500=1600)。
+
+この時点で魔力が1.0ゲージ以上あるはず。中央に移動してUC空中P5回でコンパッションズを処理
+→ヒールストンプでアコレイドを打ち上げ→UC解除、ジャンプキャンセル、短羽。
+コンパッションズの取りこぼしが発生することがあるので要確認。
+コンパッションズのHPは800、UC空中P1ヒットで倒せる。
+アコレイド槍は4500。1000+3600=4600。
+目安タイムは12.00。</p>
+
+
+　　<h2>移動</h2>
+<iframe src="https://www.youtube.com/embed/KvxHMrCBv7g?start=690&end=697" 
+  title="YouTube video player" frameborder="0" 
+  allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" 
+  allowfullscreen>
+</iframe>
+    <p>レコードと手記を避けて進む。</p>
+
+
+    <h2>Verse7:ヴァリアンス</h2>
+<iframe src="https://www.youtube.com/embed/KvxHMrCBv7g?start=696&end=726" 
+  title="YouTube video player" frameborder="0" 
+  allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" 
+  allowfullscreen>
+</iframe>
+    <p>低空でファルコンを出し長羽2回でダウンを取る→Jなどで高度を稼ぎ再度ファルコン、長羽2回+短羽。
+
+ダウンしてからはヴァリアンスの胸付近でA羽を出すと、胴体に加えて腕にも羽が当たりDPSを高められる。
+飛び上がりながらの回転切りをされるとダウンが取れなくなる。回避でWTを取って着地し、Jで追いかけて残りの羽を当てる。
+ヴァリアンスのHPは20000。4200*4+3600=20400
+目安タイムは5.50。ジャンプされると1秒程度ロス。
+</p>
+
+
+    <h2>移動</h2>
+<iframe src="https://www.youtube.com/embed/KvxHMrCBv7g?start=728&end=732" 
+  title="YouTube video player" frameborder="0" 
+  allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" 
+  allowfullscreen>
+</iframe>
+
+
+    <h2>Verse9:カシェ+コンパッションズ*6</h2>
+<iframe src="https://www.youtube.com/embed/KvxHMrCBv7g?start=730&end=744" 
+  title="YouTube video player" frameborder="0" 
+  allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" 
+  allowfullscreen>
+</iframe>
+    <p>UCPPP
+カシェに回避されると0.5秒ロス。</p>
+
+
+    <h2>移動</h2>
+<iframe src="https://www.youtube.com/embed/KvxHMrCBv7g?start=741&end=786" 
+  title="YouTube video player" frameborder="0" 
+  allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" 
+  allowfullscreen>
+</iframe>
+    <p>UCでの移動はタイガーJと比べて約30%速い。
+調合書を避ける。
+階段後の扉はUC発動時の攻撃判定で開け、そのままUCで進む。直後の段差でUCダッシュが途切れるので回避を入れておく。</p>
+
+
+    <h2>Verse10</h2>
+    <h3>フェーズ1:アコレイド双剣+アクセプタンス*2→カシェ*2+コンパッションズ*11</h3>
+<iframe src="https://www.youtube.com/embed/KvxHMrCBv7g?start=785&end=806" 
+  title="YouTube video player" frameborder="0" 
+  allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" 
+  allowfullscreen>
+</iframe>
+    <p>アコレイドは短羽ひっかきPで倒す。HPは4500。3600+800+300=4700。
+広範囲に敵が出現する雑魚敵戦ではUCヒールストンプを使う。戦闘の途中でUCが切れないよう、魔力があるうちにUC解除と再発動をしておく。</p>
+
+
+    <h3>フェーズ2:アーベイン</h3>
+<iframe src="https://www.youtube.com/embed/KvxHMrCBv7g?start=804&end=822" 
+  title="YouTube video player" frameborder="0" 
+  allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" 
+  allowfullscreen>
+</iframe>
+    <p>WTを取りながら短羽5回。
+脇の前に密着すると、腕と胴体に羽を当てられて時短になる。
+HPは18000。3600*5=18000。
+
+目安タイムは23.00。アーベインの初手行動がジャンプを伴うものだった場合は1秒強のロス。</p>
+
+
+    <h2>移動</h2>
+<iframe src="https://www.youtube.com/embed/KvxHMrCBv7g?start=817&end=829" 
+  title="YouTube video player" frameborder="0" 
+  allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" 
+  allowfullscreen>
+</iframe>
+    <p>動けるようになった瞬間にUCダッシュを出すと、ロキが開けた扉が閉まる前に通過できる。
+失敗した場合は少しディレイをかけてUCを再発動して扉を開ける。
+いずれの場合もそのままUCで進む。</p>
+
+
+    <h2>Verse13:グラマー</h2>
+<iframe src="https://www.youtube.com/embed/KvxHMrCBv7g?start=835&end=876" 
+  title="YouTube video player" frameborder="0" 
+  allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" 
+  allowfullscreen>
+</iframe>
+    <p>2段Jの後噛みつきを回避してファルコンWT、WT中に長羽4回と短羽。
+うまく高度を稼げていればグラマーの頭に引っかかって高度を維持できる。
+降下してしまった場合は小Jファルコン→長羽を繰り返す。
+フェーズ移行の直前にA羽を1セット当てられるタイミングがあるため、WT中に4回羽を当てていれば削りきれる。
+移行後Sを当ててクライマックス。
+HPは20000。4200*4+3600=20400
+目安タイムは22.20。</p>
+
+    
+<footer>
+        <div class="page-navigation">
+            <div class="nav-prev"><a href="Pro_jp.html">← Prev.</a></div>
+            <div class="nav-next"><a href="2_E_jp.html">Next →</a></div>
+        </div>
+        <div class="nav-home">
+            <a href="index.html">トップページ</a>
+        </div>
+</footer>
+
+
+
+    <script>
+        // ページ読み込み時に実行
+        document.addEventListener("DOMContentLoaded", function() {
+            const iframes = document.querySelectorAll('iframe[src*="youtube.com/embed"]');
+            
+            iframes.forEach(function(iframe, index) {
+                // 1. APIで操作するためのIDを自動で付ける
+                if (!iframe.id) iframe.id = 'yt-player-' + index;
+                
+                // 2. JSから操作するための必須パラメータ(enablejsapi=1)をURLに自動追加
+                if (!iframe.src.includes('enablejsapi=1')) {
+                    iframe.src += (iframe.src.includes('?') ? '&' : '?') + 'enablejsapi=1';
+                }
+            });
+
+            // 3. YouTubeの操作プログラム（API）を読み込む
+            const tag = document.createElement('script');
+            tag.src = "https://www.youtube.com/iframe_api";
+            const firstScriptTag = document.getElementsByTagName('script')[0];
+            firstScriptTag.parentNode.insertBefore(tag, firstScriptTag);
+        });
+
+        // YouTube APIの準備が整ったら自動で呼ばれる関数
+        function onYouTubeIframeAPIReady() {
+            const iframes = document.querySelectorAll('iframe[src*="youtube.com/embed"]');
+            
+            iframes.forEach(function(iframe) {
+                // iframeのURLから「start=〇〇」の数字を抜き出す（無ければ0秒とする）
+                const startMatch = iframe.src.match(/[?&]start=(\d+)/);
+                const startSec = startMatch ? parseInt(startMatch[1], 10) : 0;
+
+                // プレイヤーをプログラムで監視する設定
+                new YT.Player(iframe.id, {
+                    events: {
+                        'onStateChange': function(event) {
+                            // 動画が指定した終了時間(end)に到達して「再生終了(ENDED)」になった瞬間
+                            if (event.data === YT.PlayerState.ENDED) {
+                                // 開始秒数に瞬時に巻き戻す
+                                event.target.seekTo(startSec, true);
+                                // 一時停止して、ユーザーがもう一度再生ボタンを押すのを待つ
+                                event.target.pauseVideo(); 
+                                
+                                // 💡 もし「自動でずっとループ再生させ続けたい」場合は、
+                                // 上の pauseVideo() を消して event.target.playVideo(); に書き換えてください。
+                            }
+                        }
+                    }
+                });
+            });
+        }
+    </script>
+    </body>
+</html>
