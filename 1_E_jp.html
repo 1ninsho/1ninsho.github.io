@@ -51,17 +51,6 @@
             white-space: pre-wrap;
             margin-bottom: 2em;
         }
-        /* YouTube動画用のダミー枠 */
-        .video-placeholder {
-            background-color: #eee;
-            border: 2px dashed #aaa;
-            padding: 20px;
-            text-align: center;
-            margin: 15px 0;
-            color: #666;
-            font-weight: bold;
-            border-radius: 5px;
-        }
         /* YouTube動画をスマホ対応（レスポンシブ）にする設定 */
         iframe {
             width: 100%;
@@ -325,9 +314,6 @@ HPは20000。4200*4+3600=20400
                                 event.target.seekTo(startSec, true);
                                 // 一時停止して、ユーザーがもう一度再生ボタンを押すのを待つ
                                 event.target.pauseVideo(); 
-                                
-                                // 💡 もし「自動でずっとループ再生させ続けたい」場合は、
-                                // 上の pauseVideo() を消して event.target.playVideo(); に書き換えてください。
                             }
                         }
                     }
