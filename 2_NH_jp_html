@@ -1,0 +1,263 @@
+<!DOCTYPE html>
+<html lang="ja">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>チャプター2(Normal,Hard)</title>
+    <style>
+        /* ページ全体の見栄えを整える設定 */
+        body {
+            font-family: "Helvetica Neue", Arial, "Hiragino Kaku Gothic ProN", "Hiragino Sans", Meiryo, sans-serif;
+            line-height: 1.8;
+            margin: 0 auto;
+            max-width: 800px;
+            padding: 20px;
+            color: #333;
+            background-color: #fcfcfc;
+        }
+        /* 言語切り替え表記用 */
+        .lang-switch {
+            text-align: right;
+            font-size: 0.9em;
+            color: #666;
+            margin-bottom: 20px;
+        }
+        /* 各見出しのデザイン */
+        h1 {
+            font-size: 2.2em;
+            border-bottom: 3px solid #333;
+            padding-bottom: 10px;
+            margin-top: 20px;
+        }
+        h2 {
+            font-size: 1.8em;
+            border-bottom: 1px solid #ccc;
+            margin-top: 50px;
+            padding-bottom: 5px;
+        }
+        h3 {
+            font-size: 1.4em;
+            border-left: 5px solid #555;
+            padding-left: 10px;
+            margin-top: 40px;
+        }
+        h4 {
+            font-size: 1.1em;
+            color: #444;
+            margin-top: 30px;
+        }
+        /* 文章の改行をそのまま表示するための設定 */
+        p {
+            white-space: pre-wrap;
+            margin-bottom: 2em;
+        }
+        /* YouTube動画をスマホ対応（レスポンシブ）にする設定 */
+        iframe {
+            width: 100%;
+            max-width: 560px;
+            aspect-ratio: 16 / 9;
+            height: auto;
+            display: block;       /* 前後に余計な隙間を作らないための設定 */
+            margin: 15px 0;       /* 上下に少し隙間を空ける */
+            border: none;         /* 動画の周りの黒い線を消す */
+        }
+        /* フッター（戻るリンク・前後ナビゲーション）の装飾 */
+        footer {
+            margin-top: 60px;
+            border-top: 1px solid #ccc;
+            padding-top: 20px;
+        }
+        /* 前後のリンクを左右に配置するための設定（テーブルレイアウトによる互換性確保） */
+        .page-navigation {
+            display: table;
+            width: 100%;
+            margin-bottom: 20px;
+        }
+        .nav-prev {
+            display: table-cell;
+            text-align: left;
+            width: 50%;
+        }
+        .nav-next {
+            display: table-cell;
+            text-align: right;
+            width: 50%;
+        }
+        .nav-home {
+            text-align: center;
+            margin-top: 15px;
+        }
+        footer a {
+            color: #0066cc;
+            text-decoration: none;
+            font-weight: bold;
+        }
+        footer a:hover {
+            text-decoration: underline;
+        }
+    </style>
+</head>
+<body>
+
+    <div class="lang-switch">日本語/ENG(WIP)</div>
+
+    <h1>チャプター2(Normal,Hard)</h1>
+    Easy<span class="separator">/</span><a href="Pro_NH_jp.html">Normal,Hard</a><span class="separator">/</span><a href="Pro_I_jp.html">∞</a></li>
+
+    <h2>移動</h2>
+<iframe src="https://www.youtube.com/embed/KvxHMrCBv7g?start=547&end=603" 
+  title="YouTube video player" frameborder="0" 
+  allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" 
+  allowfullscreen>
+</iframe>
+    <p>対岸の魔女の棺から赤大を回収。棺(HP1000)はひっかきPで壊す。
+スピアを買えた場合は紫小を使う。</p>
+
+    
+  <h2>Verse2</h2>
+  <p>エンラプチャー→アクセプタンス*3→エンラプチャー*2</p>
+  <h3>アイテムあり</h3>
+<iframe src="https://www.youtube.com/embed/KvxHMrCBv7g?start=663&end=694" 
+  title="YouTube video player" frameborder="0" 
+  allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" 
+  allowfullscreen>
+</iframe>
+    <p>短羽を出してスピアで接近。羽を消費しきったら1回だけ追加で短羽を出す。
+目安タイムは6.00。</p>
+
+
+  <h3>アイテムなし</h3>
+<iframe src="https://www.youtube.com/embed/KvxHMrCBv7g?start=663&end=694" 
+  title="YouTube video player" frameborder="0" 
+  allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" 
+  allowfullscreen>
+</iframe>
+    <p>開幕タイガー、エンラプにひっかきP→3体出現するアクセに、入口から見て右からPKPで2体目のエンラプが出現する付近に飛ばす、アクセ1体を倒す
+→エンラプ1体とアクセ2体をひっかきPKで倒す→最後のエンラプをウィケッドと長押し射撃で倒す。必要に応じてダッヂオフセットで位置調整。
+
+羽を使いたいが、このすぐ後に魔力が1.0ゲージあると大きく短縮できる箇所がある上、出現する敵の体力の合計が9000=ちょうど1.0ゲージ分のため封印推奨。
+オーバーキルがかみ合えば羽を使いつつ魔力を確保できることもあるが制御は不可能。
+成功すれば7秒台が出る。</p>
+
+
+　　<h2>移動</h2>
+<iframe src="https://www.youtube.com/embed/KvxHMrCBv7g?start=690&end=697" 
+  title="YouTube video player" frameborder="0" 
+  allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" 
+  allowfullscreen>
+</iframe>
+
+
+　　<h3>建物入場後UCチャート</h3>
+    <p>かなり高くジャンプしないと手記を回収してロスしてしまう。タイガーとのタイム差も少なくハイリスクローリターン。</p>
+
+
+    <h2>Verse5</h2>
+  <p>アコレイド鎚*2</p>
+<iframe src="https://www.youtube.com/embed/KvxHMrCBv7g?start=696&end=726" 
+  title="YouTube video player" frameborder="0" 
+  allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" 
+  allowfullscreen>
+</iframe>
+    <p>それぞれ長羽ひっかきPで倒す。
+羽が残ることが多い。1体目を倒したあとは手動発射をしておくと2セット目をスムーズに出せるようになる。
+ここの戦場は四方を壁に囲まれているおかげで手動発射してもすぐにA羽を再展開できる。
+アコレイド鎚のHPは5000。4200+800+300=5300。</p>
+
+
+    <h2>移動</h2>
+<iframe src="https://www.youtube.com/embed/KvxHMrCBv7g?start=728&end=732" 
+  title="YouTube video player" frameborder="0" 
+  allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" 
+  allowfullscreen>
+</iframe>
+
+
+<p>レコードの演出はスキップ可能。
+Verseスキップは、最初の2回のウィッチツイストを低めに、3回目を高めに出すと安定する。
+壁の模様を目印にUCで着地。結界が張られたら長羽を展開する。</p>
+
+
+    <h2>Verse8</h2>
+  <p>ベリーフ</p>
+  <iframe src="https://www.youtube.com/embed/KvxHMrCBv7g?start=730&end=744" 
+  title="YouTube video player" frameborder="0" 
+  allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" 
+  allowfullscreen>
+</iframe>
+    <p>長羽5回。
+    ダメージ計算上は短羽5回でも倒せるが、ジャンプで逃げられる可能性を考えると長羽を使う方が安定する。
+    背中側触腕の付け根付近だと羽が早く当たる。
+    上振れれば6秒台も出うるが安定しない。逃げられたとしても9.00は切りたい。</p>
+
+
+    <h2>移動</h2>
+<iframe src="https://www.youtube.com/embed/KvxHMrCBv7g?start=741&end=786" 
+  title="YouTube video player" frameborder="0" 
+  allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" 
+  allowfullscreen>
+</iframe>
+
+    
+<footer>
+        <div class="page-navigation">
+            <div class="nav-prev"><a href="Pro_jp.html">← Prev.</a></div>
+            <div class="nav-next"><a href="2_E_jp.html">Next →</a></div>
+        </div>
+        <div class="nav-home">
+            <a href="index.html">トップページ</a>
+        </div>
+</footer>
+
+
+
+    <script>
+        // ページ読み込み時に実行
+        document.addEventListener("DOMContentLoaded", function() {
+            const iframes = document.querySelectorAll('iframe[src*="youtube.com/embed"]');
+            
+            iframes.forEach(function(iframe, index) {
+                // 1. APIで操作するためのIDを自動で付ける
+                if (!iframe.id) iframe.id = 'yt-player-' + index;
+                
+                // 2. JSから操作するための必須パラメータ(enablejsapi=1)をURLに自動追加
+                if (!iframe.src.includes('enablejsapi=1')) {
+                    iframe.src += (iframe.src.includes('?') ? '&' : '?') + 'enablejsapi=1';
+                }
+            });
+
+            // 3. YouTubeの操作プログラム（API）を読み込む
+            const tag = document.createElement('script');
+            tag.src = "https://www.youtube.com/iframe_api";
+            const firstScriptTag = document.getElementsByTagName('script')[0];
+            firstScriptTag.parentNode.insertBefore(tag, firstScriptTag);
+        });
+
+        // YouTube APIの準備が整ったら自動で呼ばれる関数
+        function onYouTubeIframeAPIReady() {
+            const iframes = document.querySelectorAll('iframe[src*="youtube.com/embed"]');
+            
+            iframes.forEach(function(iframe) {
+                // iframeのURLから「start=〇〇」の数字を抜き出す（無ければ0秒とする）
+                const startMatch = iframe.src.match(/[?&]start=(\d+)/);
+                const startSec = startMatch ? parseInt(startMatch[1], 10) : 0;
+
+                // プレイヤーをプログラムで監視する設定
+                new YT.Player(iframe.id, {
+                    events: {
+                        'onStateChange': function(event) {
+                            // 動画が指定した終了時間(end)に到達して「再生終了(ENDED)」になった瞬間
+                            if (event.data === YT.PlayerState.ENDED) {
+                                // 開始秒数に瞬時に巻き戻す
+                                event.target.seekTo(startSec, true);
+                                // 一時停止して、ユーザーがもう一度再生ボタンを押すのを待つ
+                                event.target.pauseVideo(); 
+                            }
+                        }
+                    }
+                });
+            });
+        }
+    </script>
+    </body>
+</html>
