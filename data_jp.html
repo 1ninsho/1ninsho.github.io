@@ -3,9 +3,8 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>難易度による差</title>
+    <title>各種データ</title>
     <style>
-        /* ページ全体の見栄えを整える設定 */
         body {
             font-family: "Helvetica Neue", Arial, "Hiragino Kaku Gothic ProN", "Hiragino Sans", Meiryo, sans-serif;
             line-height: 1.8;
@@ -15,14 +14,12 @@
             color: #333;
             background-color: #fcfcfc;
         }
-        /* 言語切り替え表記用 */
         .lang-switch {
             text-align: right;
             font-size: 0.9em;
             color: #666;
             margin-bottom: 20px;
         }
-        /* 各見出しのデザイン */
         h1 {
             font-size: 2.2em;
             border-bottom: 3px solid #333;
@@ -46,12 +43,10 @@
             color: #444;
             margin-top: 30px;
         }
-        /* 文章の改行をそのまま表示するための設定 */
         p {
             white-space: pre-wrap;
             margin-bottom: 2em;
         }
-        /* YouTube動画用のダミー枠 */
         .video-placeholder {
             background-color: #eee;
             border: 2px dashed #aaa;
@@ -62,13 +57,11 @@
             font-weight: bold;
             border-radius: 5px;
         }
-        /* フッター（戻るリンク・前後ナビゲーション）の装飾 */
         footer {
             margin-top: 60px;
             border-top: 1px solid #ccc;
             padding-top: 20px;
         }
-        /* 前後のリンクを左右に配置するための設定（テーブルレイアウトによる互換性確保） */
         .page-navigation {
             display: table;
             width: 100%;
@@ -96,24 +89,67 @@
         footer a:hover {
             text-decoration: underline;
         }
+        table {
+   　　　　　 border-collapse: collapse; 
+  　　　　　  width: 100%;
+ 　　　　　   max-width: 600px; 
+　　　  }
+　　　  th, td {
+   　　　　　 border: 1px solid #666; 
+ 　　　　　   padding: 10px;
+   　　　　　 text-align: center;
+　  　　}
+　　　  th {
+ 　　　　　   background-color: #f9f9f9;
+　　　  }
     </style>
 </head>
 <body>
 
     <div class="lang-switch">日本語/ENG(WIP)</div>
 
-    <h1>難易度による差</h1>
+    <h1>各種データ</h1>
 
-    <h2>魔力上限の初期値</h2>
-    <p>Easyのみ2.0ゲージ、他難度は1.0ゲージ。</p>
+    <table>
+  <tr>
+    <th></th>
+    <th>Easy</th>
+    <th>Normal</th>
+    <th>Hard</th>
+    <th>∞</th>
+  </tr>
+  <tr>
+    <th>被ダメージ倍率(Normal比)</th>
+    <td>0.5</td>
+    <td>-</td>
+    <td>2</td>
+    <td>5</td>
+  </tr>
+  <tr>
+    <th>UC中の自動回復(10Fあたり)</th>
+    <td>10</td>
+    <td>5</td>
+    <td>2</td>
+    <td>0</td>
+  </tr>
+  <tr>
+    <th>WT猶予F</th>
+    <td>20</td>
+    <td>15</td>
+    <td>10</td>
+    <td>7</td>
+  </tr>
+  <tr>
+    <th>魔力1を溜めるのに必要なダメージ</th>
+    <td>900</td>
+    <td colspan="2">1125</td>
+    <td>1800</td>
+  </tr>
+</table>
 
-    <h2>魔力の溜まりやすさ</h2>
-    <p>魔力0.1ゲージ溜めるのに必要なダメージは、Easyでは900、NormalとHardは1125？、∞は1800。
-言い換えると、Easyと比べてNormal Hardは0.8倍、∞は半分しか魔力が溜まらない。</p>
-
-    <h2>敵の攻撃力</h2>
-    <p>Easyに対して、Normalは2倍、Hardは4倍、∞は10倍。
-Easyはこちらの体力最大値が他難度の2倍あるため、実質的には4倍、8倍、20倍となる。</p>
+<p>
+・∞の仮面の賢者はノーマルの10倍のダメージ。
+・ジャスト回避は500、ホーネットは600、挑発は900ダメージ分魔力が溜まる。</p>
 
 
     <footer>
